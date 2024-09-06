@@ -1,0 +1,25 @@
+
+
+ class Compare {
+   public static void main(String[] args) {
+    
+    String str ="This is exercise 1";                                                                                  
+    String str1= "This is Exercise 1" ;                                                                                 
+    int s = str.compareToIgnoreCase(str1);
+
+    if(s==1)
+    {
+        System.out.println(str +" is greater than "+ str1);
+    }
+    else{
+        if(s==0)
+        {
+            System.out.println(str + " is equal to "+ str1);
+        }
+        else
+        {
+            System.out.println(str + " is less than "+ str1);
+        }
+    }
+   } 
+}
